@@ -5,14 +5,19 @@ numpy>=1.21.0
 
 # === AI Framework ===
 langchain>=0.1.0
-langchain-core>=0.3.72,<1.0.0
-langchain-text-splitters>=0.3.9,<1.0.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
 langchain-community>=0.0.1
 
 # === Model Providers ===
 langchain-anthropic>=0.1.0
 langchain-google-genai>=0.0.1
 langchain-google-vertexai>=0.0.1
+langchain-groq>=0.0.1
+
+# === Enterprise Cloud (AliCloud Integration) ===
+# Required for Qwen-Max/Plus integration
+dashscope>=1.14.0
 
 # === Vector Database & Search ===
 faiss-cpu>=1.7.4
@@ -24,13 +29,14 @@ rank_bm25>=0.2.2
 PyPDF2>=3.0.0
 markitdown>=0.0.1a1
 docling>=1.0.0
+pypdf>=3.0.0
+tiktoken>=0.5.0
 
 # === Data Analysis ===
 pandas>=2.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-plotly
+plotly>=5.17.0
 
 # === Phase 4: Agentic AI (The New Brain) ===
 langgraph>=0.0.10
-langchain-groq>=0.0.1
